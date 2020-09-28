@@ -68,6 +68,8 @@
                 </div>
             </div>
         </div>
+        <div class="comments">
+        </div>
         <div class="movie-images">
             <div class="container mx-auto px-4 py-16 ">
                 <div class="text-4xl font-semibold">Cast</div>

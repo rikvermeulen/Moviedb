@@ -11,9 +11,9 @@
         {
             "type": "package",
             "package": {
-                "name": "Vendin/comments",
+                "name": "laravelista/comments",
                 "version": "dev-master",
-                "type": "drupal-theme",
+                "type": "package",
                 "source": {
                     "url": "https://github.com/Vendin/comments.git",
                     "type": "git",
@@ -27,12 +27,12 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.6.0",
         "laravel/legacy-factories": "^1.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
         "livewire/livewire": "^2.2",
-        "Vendin/comments": "dev-master"
+        "vendin/comments": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
@@ -56,7 +56,7 @@
             "App\\": "app/"
         },
         "classmap": [
-            "database/seeds",
+            "database/seeders",
             "database/factories"
         ]
     },
