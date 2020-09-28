@@ -7,6 +7,21 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "Vendin/comments",
+                "version": "dev-master",
+                "type": "drupal-theme",
+                "source": {
+                    "url": "https://github.com/Vendin/comments.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
         "php": "^7.3.0",
         "fideloper/proxy": "^4.2",
@@ -16,7 +31,8 @@
         "laravel/legacy-factories": "^1.0",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
-        "livewire/livewire": "^2.2"
+        "livewire/livewire": "^2.2",
+        "Vendin/comments": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
