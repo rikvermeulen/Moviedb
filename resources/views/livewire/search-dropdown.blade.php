@@ -3,6 +3,7 @@
     <div class="absolute top-0">
         <svg class="fill-current w-4 text-gray-700 mt-2 sm:ml-2" viewBox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="#a0afc0" stroke-width="2"/></svg>
     </div>
+    <div wire:loading class="spinner top-0 right-0 mr-5 mt-4"></div>
     @if (strlen($search) > 2)
         <div class="absolute bg-gray-700 text-sm rounded w-64 mt-4">
             @if( $searchResults->count() > 0)
