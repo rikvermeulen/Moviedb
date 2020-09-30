@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="" />
+    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
+      <change afterPath="$PROJECT_DIR$/app/ViewModels/MovieViewModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ViewModels/MoviesViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProDev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/MovieCard.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/MovieCard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/movie-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/movie-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/show.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +43,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,12 +55,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
@@ -58,7 +95,6 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
-      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
@@ -68,7 +104,6 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
@@ -123,24 +158,52 @@
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/Vendin/comments" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/legacy-factories" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-view-models" />
     </include_path>
   </component>
   <component name="ProjectId" id="1h9OCENX5OTUbFLY0V3rQH6OVk4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\vendor" />
+      <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\config" />
+      <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\database\migrations" />
+      <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\database" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -166,14 +229,44 @@
       <workItem from="1600680429298" duration="127000" />
       <workItem from="1600680589646" duration="6010000" />
       <workItem from="1600687706830" duration="826000" />
+      <workItem from="1601301489932" duration="1305000" />
+      <workItem from="1601302816633" duration="3490000" />
+      <workItem from="1601306340206" duration="3155000" />
+      <workItem from="1601390963829" duration="1637000" />
+      <workItem from="1601414947889" duration="3526000" />
+      <workItem from="1601468572567" duration="2643000" />
     </task>
+    <task id="LOCAL-00001" summary="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
+      <created>1601416578625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601416578625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="bug fixes" />
+    <MESSAGE value="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599478309623">
@@ -184,21 +277,37 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1600680811542" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1600684294661">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state x="1683" y="610" width="474" height="280" key="ComposerInitDialogKey" timestamp="1601301502288">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="1683" y="610" width="474" height="280" key="ComposerInitDialogKey/0.0.2560.1400@0.0.2560.1400" timestamp="1601301502288" />
+    <state x="1587" y="478" key="EditFileWatcherDialog" timestamp="1601415863086">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1587" y="478" key="EditFileWatcherDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1601415863086" />
+    <state x="1700" y="455" key="FileChooserDialogImpl" timestamp="1601304594122">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1700" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1601304594122" />
+    <state width="1234" height="391" key="GridCell.Tab.0.bottom" timestamp="1601301521055">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1234" height="391" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
     <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1600684294661" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1600684294660">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1234" height="391" key="GridCell.Tab.0.center" timestamp="1601301521055">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1234" height="391" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
     <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1600684294660" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1600684294659">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1234" height="391" key="GridCell.Tab.0.left" timestamp="1601301521055">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1234" height="391" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
     <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1600684294659" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1600684294660">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1234" height="391" key="GridCell.Tab.0.right" timestamp="1601301521055">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state width="1234" height="391" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
     <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1600684294660" />
     <state x="0" y="209" key="IDE.errors.dialog" timestamp="1599987806618">
       <screen x="0" y="25" width="1440" height="875" />
@@ -212,6 +321,14 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="334" y="172" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1600680650246" />
+    <state x="1512" y="429" key="Vcs.Push.Dialog.v2" timestamp="1601416589177">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601416589177" />
+    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1601471375072">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1583" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1601471375072" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
