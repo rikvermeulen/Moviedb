@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="" />
+    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProDev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +16,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,9 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
@@ -124,9 +135,20 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/laravel/legacy-factories" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/Vendin/comments" />
     </include_path>
   </component>
   <component name="ProjectId" id="1h9OCENX5OTUbFLY0V3rQH6OVk4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,7 +161,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -149,6 +171,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="" />
@@ -166,14 +191,44 @@
       <workItem from="1600680429298" duration="127000" />
       <workItem from="1600680589646" duration="6010000" />
       <workItem from="1600687706830" duration="826000" />
+      <workItem from="1600694842408" duration="4469000" />
+      <workItem from="1600779513555" duration="4249000" />
+      <workItem from="1601302367569" duration="803000" />
+      <workItem from="1601363672279" duration="122000" />
+      <workItem from="1601559262454" duration="765000" />
     </task>
+    <task id="LOCAL-00001" summary="composer updated for laravel ^8.0">
+      <created>1600780201294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600780201294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="project update to laravel ^8.0, Fixed route file to new format">
+      <created>1600784397753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600784397753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="project update to laravel ^8.0">
+      <created>1601302437349</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302437349</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="composer updated for laravel ^8.0" />
+    <MESSAGE value="project update to laravel ^8.0, Fixed route file to new format" />
+    <MESSAGE value="project update to laravel ^8.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="project update to laravel ^8.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599478309623">
@@ -184,6 +239,22 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1600680811542" />
+    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1601560074462">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1601560074462" />
+    <state x="461" y="378" width="517" height="267" key="ComposerInitDialogKey" timestamp="1600779810503">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="461" y="378" width="517" height="267" key="ComposerInitDialogKey/0.25.1440.875@0.25.1440.875" timestamp="1600779810503" />
+    <state x="592" y="367" key="Github.ShareDialog" timestamp="1600694957358">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="592" y="367" key="Github.ShareDialog/0.25.1440.875@0.25.1440.875" timestamp="1600694957358" />
+    <state x="463" y="89" key="Github.UntrackedFilesDialog" timestamp="1600695111133">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="463" y="89" key="Github.UntrackedFilesDialog/0.25.1440.875@0.25.1440.875" timestamp="1600695111133" />
     <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1600684294661">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -200,18 +271,30 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1600684294660" />
-    <state x="0" y="209" key="IDE.errors.dialog" timestamp="1599987806618">
+    <state x="232" y="208" key="IDE.errors.dialog" timestamp="1600757929185">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="0" y="209" key="IDE.errors.dialog/0.25.1440.875@0.25.1440.875" timestamp="1599987806618" />
+    <state x="232" y="208" key="IDE.errors.dialog/0.25.1440.875@0.25.1440.875" timestamp="1600757929185" />
     <state x="540" y="390" key="NewPhpFileDialog" timestamp="1599481220124">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="540" y="390" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1599481220124" />
-    <state x="334" y="172" key="SettingsEditor" timestamp="1600680650246">
+    <state x="321" y="60" key="SettingsEditor" timestamp="1601559702224">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="334" y="172" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1600680650246" />
+    <state x="321" y="60" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1601559702224" />
+    <state x="320" y="195" key="Vcs.Push.Dialog.v2" timestamp="1601302457913">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="320" y="195" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1601302457913" />
+    <state x="520" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601559797051">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="520" y="376" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1601559797051" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1600698712374">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875@0.25.1440.875" timestamp="1600698712374" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
