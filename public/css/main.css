@@ -21280,6 +21280,10 @@ video {
   }
 }
 
+.spinner {
+  position: absolute;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
