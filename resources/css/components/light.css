@@ -1,0 +1,18 @@
+.theme-light {
+    --page-background-color: #f7fafc;
+    --secondary-background-color: #e2e8f0;
+    --ternary-background-color: #edf2f7;
+
+    --button-background-color: #ed8936;
+
+    --text-default-color: #000;
+    --text-secondary-color: #718096;
+
+    --text-orange-color: #ed8936;
+
+    --search-fill-color: #e2e8f0;
+    --rating-fill-color: #ed8936;
+
+    --border-color: #e2e8f0;
+    --border-accent: #ed8936;
+}

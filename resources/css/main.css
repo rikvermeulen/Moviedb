@@ -4,6 +4,9 @@
 
 @tailwind utilities;
 
+@import 'components/light.css';
+@import 'components/dark.css';
+
 .spinner {
     position: absolute;
 }

@@ -1,5 +1,5 @@
 <header>
-    <nav class="border-b border-gray-700">
+    <nav class="border-b border-border">
         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
             <ul class="flex flex-col md:flex-row items-center">
                 <li>
@@ -15,7 +15,10 @@
                     <a class="hover:text-gray-500" href="">Actors</a>
                 </li>
             </ul>
-            <div class="flex flex-col md:flex-row items-center">
+            <div  class="flex flex-col md:flex-row items-center">
+                <div id="theme-switcher" class="md:ml-6 mt-3 md:mt-0">
+                    <theme-switcher></theme-switcher>
+                </div>
                 <livewire:search-dropdown></livewire:search-dropdown>
                 <div class="md:ml-4 mt-3 md:mt-0">
                     @guest
@@ -58,3 +61,4 @@
         </div>
     </nav>
 </header>
+

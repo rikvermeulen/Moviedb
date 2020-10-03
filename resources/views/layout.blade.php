@@ -66,8 +66,7 @@
         {{--<link rel="stylesheet" href="{{ URL::asset('css/common/bootstrap.css') }}" />--}}
     </head>
 
-    <body class="font-sans bg-gray-800 text-white">
-
+    <body class="font-sans theme-dark bg-page text-default">
 
         @yield('content')
 
