@@ -3,7 +3,7 @@
         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between px-4 py-6">
             <ul class="flex flex-col md:flex-row items-center">
                 <li>
-                    <a href="{{ route('movies.index') }}">Logo</a>
+                    <a href="{{ route('index.index') }}">Logo</a>
                 </li>
                 <li class="md:ml-6 mt-3 md:mt-0">
                     <a class="hover:text-gray-500" href="{{ route('movies.index') }}">Movies</a>
@@ -12,7 +12,7 @@
                     <a class="hover:text-gray-500" href="">TV Shows</a>
                 </li>
                 <li class="md:ml-6 mt-3 md:mt-0">
-                    <a class="hover:text-gray-500" href="">Actors</a>
+                    <a class="hover:text-gray-500" href="{{ route('actors.index') }}">Actors</a>
                 </li>
             </ul>
             <div  class="flex flex-col md:flex-row items-center">
