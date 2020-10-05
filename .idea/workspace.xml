@@ -22,24 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ActorsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/actor-card.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ViewModels/ActorsViewModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/actor-card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/actors/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/actors/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout/movies/index.blade.php" afterDir="false" />
+    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="#Added&#10;- purgecss for laravel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ViewModels/MovieViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModels/MovieViewModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/movies/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +235,7 @@
       <workItem from="1601414947889" duration="3526000" />
       <workItem from="1601468572567" duration="2643000" />
       <workItem from="1601635459938" duration="19942000" />
-      <workItem from="1601815456741" duration="2688000" />
+      <workItem from="1601815456741" duration="4585000" />
     </task>
     <task id="LOCAL-00001" summary="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
       <created>1601416578625</created>
@@ -263,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601716996242</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="#Added&#10;- new actors section where there is a global page for all actors and a show page for each actor to show personal detail.&#10;- everything differently routed for the new actor section. (global index page coming soon)">
+      <created>1601846019714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601846019714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +282,8 @@
     <MESSAGE value="bug fixes" />
     <MESSAGE value="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar" />
     <MESSAGE value="#Added&#10;- light and dark time with tailwindcss custom theme together with vuejs. De theme switch in a ThemeSwitcher.vue&#10;- New styling for light theme and everything is more dynamic  &#10;&#10;#bug fixes&#10;-none" />
-    <option name="LAST_COMMIT_MESSAGE" value="#Added&#10;- light and dark time with tailwindcss custom theme together with vuejs. De theme switch in a ThemeSwitcher.vue&#10;- New styling for light theme and everything is more dynamic  &#10;&#10;#bug fixes&#10;-none" />
+    <MESSAGE value="#Added&#10;- new actors section where there is a global page for all actors and a show page for each actor to show personal detail.&#10;- everything differently routed for the new actor section. (global index page coming soon)" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Added&#10;- new actors section where there is a global page for all actors and a show page for each actor to show personal detail.&#10;- everything differently routed for the new actor section. (global index page coming soon)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599478309623">
@@ -298,10 +294,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1601719637459" />
-    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1601716995700">
+    <state x="185" y="25" key="CommitChangelistDialog2" timestamp="1601882563895">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1601716995700" />
+    <state x="185" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1601882563895" />
     <state x="1683" y="610" width="474" height="280" key="ComposerInitDialogKey" timestamp="1601301502288">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -346,11 +342,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="334" y="172" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1600680650246" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1601717023853">
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1601846023354">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="1512" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601416589177" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1601717023853" />
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1601846023354" />
     <state x="890" y="224" width="672" height="424" key="search.everywhere.popup" timestamp="1601719565745">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
