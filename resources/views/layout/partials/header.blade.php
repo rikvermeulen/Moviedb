@@ -9,7 +9,7 @@
                     <a class="hover:text-gray-500" href="{{ route('movies.index') }}">Movies</a>
                 </li>
                 <li class="md:ml-6 mt-3 md:mt-0">
-                    <a class="hover:text-gray-500" href="">TV Shows</a>
+                    <a class="hover:text-gray-500" href="{{ route('tv.index') }}">TV Shows</a>
                 </li>
                 <li class="md:ml-6 mt-3 md:mt-0">
                     <a class="hover:text-gray-500" href="{{ route('actors.index') }}">Actors</a>

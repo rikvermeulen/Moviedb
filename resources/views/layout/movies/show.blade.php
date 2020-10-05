@@ -6,7 +6,7 @@
         @include ('layout.partials.header')
         <div class="movie-info border-b border-border">
             <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
-                <img src="{{ $movie['poster_path'] }}" alt="parasite" class="w-64 lg:w-96">
+                <img src="{{ $movie['poster_path'] }}" alt="poster" class="w-64 lg:w-96">
                 <div class="md:ml-24">
                     <h2 class="text-4xl mt-4 md:mt-0 font-semibold">{{ $movie['title'] }}</h2>
                     <div class="flex flex-wrap items-center text-gray-400 text-sm">

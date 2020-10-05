@@ -9,6 +9,8 @@
             @if( $searchResults->count() > 0)
                 <ul>
                     @foreach( $searchResults as $result)
+                     {{--{{dd($searchResults)}}--}}
+                    @if($result['media_type'] == 'movie')
                         <li class="border-b border-border">
                             <a href="{{ route('movies.show', $result['id']) }}" class="block hover:bg-gray-700 px-3 py-3 flex items-center" @if ($loop->last) @keydown.tab="isOpen = false" @endif>
                                 @if( $result['poster_path'])
@@ -17,8 +19,32 @@
                                     <img src="https://via.placeholder.com/50x75" alt="poster" class="w-8">
                                 @endif
                                 <span class="ml-4">{{ $result['title'] }}</span>
+                                <span class="ml-4">{{ $result['release_date'] }}</span>
                             </a>
                         </li>
+                      @elseif($result['media_type'] == 'person')
+                        <li class="border-b border-border">
+                            <a href="{{ route('actors.show', $result['id']) }}" class="block hover:bg-gray-700 px-3 py-3 flex items-center" @if ($loop->last) @keydown.tab="isOpen = false" @endif>
+                                @if( $result['profile_path'])
+                                    <img src="https://image.tmdb.org/t/p/w92/{{ $result['profile_path'] }}" alt="poster" class="w-8">
+                                @else
+                                    <img src="https://via.placeholder.com/50x75" alt="poster" class="w-8">
+                                @endif
+                                <span class="ml-4">{{ $result['name'] }}</span>
+                            </a>
+                        </li>
+                        @elseif($result['media_type'] == 'tv')
+                            <li class="border-b border-border">
+                                <a href="{{ route('tv.show', $result['id']) }}" class="block hover:bg-gray-700 px-3 py-3 flex items-center" @if ($loop->last) @keydown.tab="isOpen = false" @endif>
+                                    @if( $result['poster_path'])
+                                        <img src="https://image.tmdb.org/t/p/w92/{{ $result['poster_path'] }}" alt="poster" class="w-8">
+                                    @else
+                                        <img src="https://via.placeholder.com/50x75" alt="poster" class="w-8">
+                                    @endif
+                                    <span class="ml-4">{{ $result['name'] }}</span>
+                                </a>
+                            </li>
+                        @endif
                     @endforeach
                 </ul>
 
