@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'components/light.css';
+@import 'components/dark.css';
+
+.spinner {
+    position: absolute;
+}
