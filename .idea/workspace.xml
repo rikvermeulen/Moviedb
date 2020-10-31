@@ -22,90 +22,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="Added jetstream and updated all packages&#10;#Added&#10;- jetstream for better user usage&#10;#bugs&#10;-need to update new content for light and dark mode">
-      <change afterPath="$PROJECT_DIR$/app/Actions/Jetstream/AddTeamMember.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Jetstream/CreateTeam.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Jetstream/DeleteTeam.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Jetstream/DeleteUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Actions/Jetstream/UpdateTeamName.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Membership.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Team.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Policies/TeamPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/JetstreamServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/AppLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/sanctum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_21_100000_create_teams_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_05_21_200000_create_team_user_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/api/api-token-manager.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/api/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/forgot-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/reset-password.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/two-factor-challenge.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify-email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/403.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/500.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/errors/503.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/delete-user-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/logout-other-browser-sessions-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/two-factor-authentication-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/update-password-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profile/update-profile-information-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teams/create-team-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teams/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teams/delete-team-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teams/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teams/team-member-manager.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/teams/update-team-name-form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components">
+      <change afterPath="$PROJECT_DIR$/database/migrations/2018_06_30_113500_create_comments_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/temp/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/temp/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProDev.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/actor-card.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/ActorCard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/AppLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/AppLayout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_06_30_113500_create_comments_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/movie.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/abstracts/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/base/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/components/buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/layout/navigation.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/page/error.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/page/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/temp/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/movies/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/movies/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guest.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +80,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
@@ -168,7 +99,6 @@
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
-      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
@@ -216,7 +146,6 @@
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
-      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
@@ -240,7 +169,6 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
-      <path value="$PROJECT_DIR$/vendor/Vendin/comments" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/laravel/legacy-factories" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-view-models" />
@@ -254,6 +182,9 @@
       <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
       <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-honeypot" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/laravelista/comments" />
     </include_path>
   </component>
   <component name="ProjectId" id="1h9OCENX5OTUbFLY0V3rQH6OVk4" />
@@ -270,7 +201,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -279,14 +210,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/layout/movies" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources/views/layout" />
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\vendor" />
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\config" />
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\database\migrations" />
-      <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/temp" />
+      <recent name="$PROJECT_DIR$/resources/views/layout/movies" />
     </key>
   </component>
   <component name="RunManager">
@@ -324,7 +257,11 @@
       <workItem from="1601468572567" duration="2643000" />
       <workItem from="1601635459938" duration="19942000" />
       <workItem from="1601815456741" duration="6251000" />
-      <workItem from="1601884724117" duration="21340000" />
+      <workItem from="1601884724117" duration="21945000" />
+      <workItem from="1603877506436" duration="23000" />
+      <workItem from="1603981209817" duration="413000" />
+      <workItem from="1604135624430" duration="2150000" />
+      <workItem from="1604140040881" duration="17084000" />
     </task>
     <task id="LOCAL-00001" summary="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
       <created>1601416578625</created>
@@ -361,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601899030380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components">
+      <created>1601923044751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601923044751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,21 +332,22 @@
     <MESSAGE value="#Added&#10;- new actors section where there is a global page for all actors and a show page for each actor to show personal detail.&#10;- everything differently routed for the new actor section. (global index page coming soon)" />
     <MESSAGE value="#Added&#10;- purgecss for laravel" />
     <MESSAGE value="Added tvshows and updates search&#10;#Added&#10;- now tv shows are available with a page for popular and top rated shows and every show as individual page for more info.&#10;- added actors and tv shows to de searchbar with some more info about them&#10;#bugs&#10;-need to update new content for light and dark mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tvshows and updates search&#10;#Added&#10;- now tv shows are available with a page for popular and top rated shows and every show as individual page for more info.&#10;- added actors and tv shows to de searchbar with some more info about them&#10;#bugs&#10;-need to update new content for light and dark mode" />
+    <MESSAGE value="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599478309623">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.875@0.25.1440.875" timestamp="1599478309623" />
-    <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601719637459">
+    <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1604151335015">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1601719637459" />
-    <state x="178" y="25" key="CommitChangelistDialog2" timestamp="1601918859029">
+    <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1604151335015" />
+    <state x="178" y="25" key="CommitChangelistDialog2" timestamp="1604163608630">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="178" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1601918859029" />
+    <state x="178" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604163608630" />
     <state x="1683" y="610" width="474" height="280" key="ComposerInitDialogKey" timestamp="1601301502288">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -415,26 +360,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1700" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1601304594122" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1601903375998">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1602777699038">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1234" height="391" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1601903375998" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1601903375997">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1602777699038" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1602777698901">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1234" height="391" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1601903375997" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1601903375997">
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1602777698900" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1602777698816">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1234" height="391" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1601903375997" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1601903375998">
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1602777698816" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1602777698954">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1234" height="391" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1601903375998" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1602777698954" />
     <state x="0" y="209" key="IDE.errors.dialog" timestamp="1599987806618">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -447,11 +392,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="334" y="172" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1600680650246" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1601899033125">
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1601923132364">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="1512" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601416589177" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1601899033125" />
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1601923132364" />
     <state x="890" y="224" width="672" height="424" key="search.everywhere.popup" timestamp="1601719565745">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

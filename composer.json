@@ -8,22 +8,9 @@
     ],
     "license": "MIT",
     "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "laravelista/comments",
-                "version": "dev-master",
-                "type": "package",
-                "source": {
-                    "url": "https://github.com/Vendin/comments.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
     ],
     "require": {
-        "php": "^7.3.0",
+        "php": "^7.4.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -33,9 +20,9 @@
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.0",
+        "laravelista/comments": "^4.4",
         "livewire/livewire": "^2.0",
-        "spatie/laravel-view-models": "^1.3",
-        "vendin/comments": "dev-master"
+        "spatie/laravel-view-models": "^1.3"
     },
     "require-dev": {
         "facade/ignition": "^2.3.6",
