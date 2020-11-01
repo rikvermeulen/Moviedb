@@ -23,8 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/seeders/BlogTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ActorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ActorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/View/Components/ActorCard.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/ActorCard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ViewModels/ActorViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,18 +204,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+      <recent name="$PROJECT_DIR$/resources/views/temp" />
+      <recent name="$PROJECT_DIR$/resources/views/layout/movies" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/layout" />
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\vendor" />
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\config" />
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\database\migrations" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/layouts" />
-      <recent name="$PROJECT_DIR$/resources/views" />
-      <recent name="$PROJECT_DIR$/resources/views/temp" />
-      <recent name="$PROJECT_DIR$/resources/views/layout/movies" />
     </key>
   </component>
   <component name="RunManager">
@@ -373,25 +380,25 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1700" y="455" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1601304594122" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1602777699038">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="2509" height="388" key="GridCell.Tab.0.bottom" timestamp="1604233929269">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="391" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
+    <state width="2509" height="388" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604233929269" />
     <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1602777699038" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1602777698901">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="2509" height="388" key="GridCell.Tab.0.center" timestamp="1604233929269">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="391" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
+    <state width="2509" height="388" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604233929269" />
     <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1602777698900" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1602777698816">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="2509" height="388" key="GridCell.Tab.0.left" timestamp="1604233929269">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="391" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
+    <state width="2509" height="388" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604233929269" />
     <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1602777698816" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1602777698954">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="2509" height="388" key="GridCell.Tab.0.right" timestamp="1604233929269">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1234" height="391" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1601301521055" />
+    <state width="2509" height="388" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604233929269" />
     <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1602777698954" />
     <state x="0" y="209" key="IDE.errors.dialog" timestamp="1599987806618">
       <screen x="0" y="25" width="1440" height="875" />
