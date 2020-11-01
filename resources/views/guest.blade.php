@@ -3,10 +3,10 @@
 @section('content')
 
 <main>
-    @include ('layout.partials.header')
+    @include ('layouts.partials.header')
     {{ $slot }}
 </main>
 {{--footer--}}
-@include ('layout.partials.footer')
+@include ('layouts.partials.footer')
 
 @endsection

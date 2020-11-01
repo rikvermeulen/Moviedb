@@ -3,7 +3,7 @@
 
 @section ('content')
     <main class="index">
-        @include ('layout.partials.header')
+        @include ('layouts.partials.header')
         <section class="container mx-auto px-4 pt-16">
             <div class="popular-actors">
                 <h2 class="uppercase tracking-wider text-orange text-lg font-semibold">Popular Actors</h2>
@@ -36,7 +36,7 @@
         </script>
     @endsection
     {{--footer--}}
-    @include ('layout.partials.footer')
+    @include ('layouts.partials.footer')
 
 
 @endsection

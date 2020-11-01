@@ -38,7 +38,7 @@ class MoviesController extends Controller
 
         );
 
-        return view('layout.movies.index', $viewModel);
+        return view('layouts.movies.index', $viewModel);
 
     }
 
@@ -78,7 +78,7 @@ class MoviesController extends Controller
 
         $viewModel = new MovieViewModel($movie);
 
-        return view('layout.movies.show', $viewModel);
+        return view('layouts.movies.show', $viewModel);
 
     }
 

@@ -22,22 +22,33 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2018_06_30_113500_create_comments_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/temp/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/temp/layouts/guest.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ProDev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProDev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/Blogs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_10_31_210230_create_blogs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/blogs.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/AppLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/AppLayout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/GuestLayout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/temp/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/movies/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/movies/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ActorsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ActorsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TvShowsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TvShowsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/actors/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/actors/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/actors/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/actors/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/movies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/movies/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/movies/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/movies/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/tvshows/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/tvshows/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/tvshows/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/tvshows/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/temp/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/temp/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/temp/layouts/guest.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/guest.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +229,8 @@
       <recent name="C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\database\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
+      <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/resources/views/temp" />
       <recent name="$PROJECT_DIR$/resources/views/layout/movies" />
     </key>
@@ -261,7 +274,7 @@
       <workItem from="1603877506436" duration="23000" />
       <workItem from="1603981209817" duration="413000" />
       <workItem from="1604135624430" duration="2150000" />
-      <workItem from="1604140040881" duration="17084000" />
+      <workItem from="1604140040881" duration="21001000" />
     </task>
     <task id="LOCAL-00001" summary="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
       <created>1601416578625</created>
@@ -305,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601923044751</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added jetstream and updated all packages">
+      <created>1604175791248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604175791248</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +353,8 @@
     <MESSAGE value="#Added&#10;- purgecss for laravel" />
     <MESSAGE value="Added tvshows and updates search&#10;#Added&#10;- now tv shows are available with a page for popular and top rated shows and every show as individual page for more info.&#10;- added actors and tv shows to de searchbar with some more info about them&#10;#bugs&#10;-need to update new content for light and dark mode" />
     <MESSAGE value="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components" />
+    <MESSAGE value="Added jetstream and updated all packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added jetstream and updated all packages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599478309623">
@@ -344,10 +365,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1604151335015" />
-    <state x="178" y="25" key="CommitChangelistDialog2" timestamp="1604163608630">
+    <state x="178" y="25" key="CommitChangelistDialog2" timestamp="1604175790949">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="178" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604163608630" />
+    <state x="178" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604175790949" />
     <state x="1683" y="610" width="474" height="280" key="ComposerInitDialogKey" timestamp="1601301502288">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -384,19 +405,23 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="0" y="209" key="IDE.errors.dialog/0.25.1440.875@0.25.1440.875" timestamp="1599987806618" />
-    <state x="540" y="390" key="NewPhpFileDialog" timestamp="1601922097528">
+    <state x="451" y="176" key="NewPhpClassDialog" timestamp="1604227690275">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="540" y="390" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1601922097528" />
+    <state x="451" y="176" key="NewPhpClassDialog/0.25.1440.875@0.25.1440.875" timestamp="1604227690275" />
+    <state x="540" y="390" key="NewPhpFileDialog" timestamp="1604178385552">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="540" y="390" key="NewPhpFileDialog/0.25.1440.875@0.25.1440.875" timestamp="1604178385552" />
     <state x="334" y="172" key="SettingsEditor" timestamp="1600680650246">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="334" y="172" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1600680650246" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1601923132364">
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1604175799531">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="1512" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601416589177" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1601923132364" />
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1604175799531" />
     <state x="890" y="224" width="672" height="424" key="search.everywhere.popup" timestamp="1601719565745">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
@@ -412,12 +437,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/layout/actors/show.blade.php</url>
+          <url>file://$PROJECT_DIR$/resources/views/layouts/actors/show.blade.php</url>
           <line>73</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/layout/tvshows/index.blade.php</url>
+          <url>file://$PROJECT_DIR$/resources/views/layouts/tvshows/index.blade.php</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

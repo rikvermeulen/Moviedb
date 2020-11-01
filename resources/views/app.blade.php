@@ -2,7 +2,7 @@
 
 @section('content')
     <main>
-        @include ('layout.partials.header')
+        @include ('layouts.partials.header')
         {{--@livewire('navigation-dropdown')
 
         <!-- Page Heading -->
@@ -20,6 +20,6 @@
         @stack('modals')
     </main>
     {{--footer--}}
-    @include ('layout.partials.footer')
+    @include ('layouts.partials.footer')
 
 @endsection

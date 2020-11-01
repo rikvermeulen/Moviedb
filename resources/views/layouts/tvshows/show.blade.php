@@ -2,7 +2,7 @@
 
 @section('content')
     <main class="index">
-        @include ('layout.partials.header')
+        @include ('layouts.partials.header')
         <section class="container mx-auto px-4 pt-16">
             <div class="tv-info border-b border-gray-800">
                 <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
@@ -145,6 +145,6 @@
         </section>
     </main>
     {{--footer--}}
-    @include ('layout.partials.footer')
+    @include ('layouts.partials.footer')
 
 @endsection

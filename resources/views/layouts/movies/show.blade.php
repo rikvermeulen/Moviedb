@@ -3,7 +3,7 @@
 
 @section ('content')
     <main class="show">
-        @include ('layout.partials.header')
+        @include ('layouts.partials.header')
         <div class="movie-info border-b border-border">
             <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
                 <img src="{{ $movie['poster_path'] }}" alt="poster" class="w-64 lg:w-96">
@@ -134,7 +134,7 @@
         </div>
     </main>
     {{--footer--}}
-    @include ('layout.partials.footer')
+    @include ('layouts.partials.footer')
 
 
 @endsection

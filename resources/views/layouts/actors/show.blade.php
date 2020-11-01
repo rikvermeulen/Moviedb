@@ -3,7 +3,7 @@
 
 @section ('content')
     <main class="show">
-        @include ('layout.partials.header')
+        @include ('layouts.partials.header')
             <div class="movie-info border-b border-gray-800">
                 <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
                     <div class="flex-none">
@@ -88,7 +88,7 @@
             </div> <!-- end credits-->
     </main>
     {{--footer--}}
-    @include ('layout.partials.footer')
+    @include ('layouts.partials.footer')
 
 
 @endsection

@@ -24,7 +24,7 @@ class ActorsController extends Controller
 
         $viewModel = new ActorsViewModel($popularActors, $page);
 
-        return view('layout.actors.index', $viewModel);
+        return view('layouts.actors.index', $viewModel);
     }
 
 
@@ -71,7 +71,7 @@ class ActorsController extends Controller
 
         $viewModel = new ActorViewModel($actor, $social, $credits);
 
-        return view('layout.actors.show', $viewModel);
+        return view('layouts.actors.show', $viewModel);
     }
 
     /**

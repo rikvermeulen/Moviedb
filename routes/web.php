@@ -7,6 +7,7 @@ use App\Http\Controllers\TvShowsController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MoviesController;
+use App\Http\Livewire\Blogs;
 
 Route::get('/', [IndexController::class, 'index'])->name('index.index');
 
@@ -21,6 +22,9 @@ Route::get('/actors/page/{page?}', [ActorsController::class, 'index']);
 
 Route::get('/actors/{id}', [ActorsController::class, 'show'])->name('actors.show');
 
+Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
+Route::get('/blog/{id}', [BlogController::class, 'show'])->name('blog.show');
+
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
@@ -29,3 +33,7 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/user/blog', Blogs::class)
+->name('dashboard');
+

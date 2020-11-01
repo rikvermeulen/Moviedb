@@ -2,12 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\ViewModels\TvShowsViewModel;
-use App\ViewModels\TvShowViewModel;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Http;
 
-class TvShowsController extends Controller
+class BlogController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,25 +13,7 @@ class TvShowsController extends Controller
      */
     public function index()
     {
-        $popularTv = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/tv/popular')
-            ->json()['results'];
-
-        $topRatedTv = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/tv/top_rated')
-            ->json()['results'];
-
-        $genres = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/genre/tv/list')
-            ->json()['genres'];
-
-        $viewModel = new TvShowsViewModel(
-            $popularTv,
-            $topRatedTv,
-            $genres
-        );
-
-        return view('layouts.tvshows.index', $viewModel);
+        //
     }
 
     /**
@@ -66,13 +45,7 @@ class TvShowsController extends Controller
      */
     public function show($id)
     {
-        $tvshow = Http::withToken(config('services.tmdb.token'))
-            ->get('https://api.themoviedb.org/3/tv/'.$id.'?append_to_response=credits,videos,images')
-            ->json();
-
-        $viewModel = new TvShowViewModel($tvshow);
-
-        return view('layouts.tvshows.show', $viewModel);
+        //
     }
 
     /**
