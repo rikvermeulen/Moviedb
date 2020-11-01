@@ -11,7 +11,7 @@ class TeamPolicy
     use HandlesAuthorization;
 
     /**
-     * Determine whether the user can view any models.
+     * Determine whether the users can view any models.
      *
      * @param  \App\Models\User  $user
      * @return mixed
@@ -22,7 +22,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can view the model.
+     * Determine whether the users can view the model.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Team  $team
@@ -34,7 +34,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can create models.
+     * Determine whether the users can create models.
      *
      * @param  \App\Models\User  $user
      * @return mixed
@@ -45,7 +45,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can update the model.
+     * Determine whether the users can update the model.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Team  $team
@@ -57,7 +57,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can add team members.
+     * Determine whether the users can add team members.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Team  $team
@@ -69,7 +69,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can update team member permissions.
+     * Determine whether the users can update team member permissions.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Team  $team
@@ -81,7 +81,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can remove team members.
+     * Determine whether the users can remove team members.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Team  $team
@@ -93,7 +93,7 @@ class TeamPolicy
     }
 
     /**
-     * Determine whether the user can delete the model.
+     * Determine whether the users can delete the model.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Team  $team

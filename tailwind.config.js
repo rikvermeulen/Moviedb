@@ -9,7 +9,7 @@ module.exports = {
 
 
     theme: {
-        /*backgroundColor: {
+        backgroundColor: {
             page: 'var(--page-background-color)',
 
             secondary: 'var(--secondary-background-color)',
@@ -37,7 +37,7 @@ module.exports = {
         borderColor: {
             border: 'var(--border-color)',
             accent: 'var(--border-accent)'
-        },*/
+        },
         extend: {
 
             fontFamily: {

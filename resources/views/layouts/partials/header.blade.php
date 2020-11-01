@@ -39,7 +39,7 @@
                     <ul class="flex">
                         <li class="md:mr-6 mt-4 md:mt-0 ">
                             {{--<a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::user()->name }}
+                                {{ Auth::users()->name }}
                             </a>--}}
 
                             <div class="" aria-labelledby="navbarDropdown">
@@ -94,13 +94,13 @@
                                     <div class="border-t border-gray-100"></div>
 
                                     <!-- Team Management -->
-                                    @if (Laravel\Jetstream\Jetstream::hasTeamFeatures())
+                                    {{--@if (Laravel\Jetstream\Jetstream::hasTeamFeatures())
                                         <div class="block px-4 py-2 text-xs text-gray-400">
                                             {{ __('Manage Team') }}
                                         </div>
 
                                         <!-- Team Settings -->
-                                        <x-jet-dropdown-link href="{{ route('teams.show', Auth::user()->currentTeam->id) }}">
+                                        <x-jet-dropdown-link href="{{ route('teams.show', Auth::users()->currentTeam->id) }}">
                                             {{ __('Team Settings') }}
                                         </x-jet-dropdown-link>
 
@@ -117,12 +117,12 @@
                                             {{ __('Switch Teams') }}
                                         </div>
 
-                                        @foreach (Auth::user()->allTeams() as $team)
+                                        @foreach (Auth::users()->allTeams() as $team)
                                             <x-jet-switchable-team :team="$team" />
                                         @endforeach
 
                                         <div class="border-t border-gray-100"></div>
-                                @endif
+                                @endif--}}
 
                                 <!-- Authentication -->
                                     <form method="POST" action="{{ route('logout') }}">

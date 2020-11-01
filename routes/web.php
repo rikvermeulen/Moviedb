@@ -30,11 +30,17 @@ Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
+Route::group(['middleware' => ['role:Admin']], function() {
+    Route::resource('/users/blog','App\Http\Controllers\BlogController');
+    Route::resource('/roles','App\Http\Controllers\RoleController');
+    Route::resource('/users','App\Http\Controllers\UserController');
+
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/user/blog', Blogs::class)
+Route::middleware(['auth:sanctum', 'verified'])->get('/users/blog', Blogs::class)
 ->name('blog');
 

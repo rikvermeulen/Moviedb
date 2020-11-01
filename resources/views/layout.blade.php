@@ -60,7 +60,7 @@
         <meta name="msapplication-square310x310logo" content="{{ asset('image/favicon.ico')}}" />
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}" />
+        <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" />
         <livewire:styles>
          <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
         {{--<link rel="stylesheet" href="{{ URL::asset('css/common/bootstrap.css') }}" />--}}

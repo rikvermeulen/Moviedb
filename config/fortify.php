@@ -23,7 +23,7 @@ return [
     | Fortify Password Broker
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which password broker Fortify can use when a user
+    | Here you may specify which password broker Fortify can use when a users
     | is resetting their password. This configured value should match one
     | of your password brokers setup in your "auth" configuration file.
     |
@@ -57,7 +57,7 @@ return [
     |
     | Here you may configure the path where users will get redirected during
     | authentication or password reset when the operations are successful
-    | and the user is authenticated. You are free to change this value.
+    | and the users is authenticated. You are free to change this value.
     |
     */
 

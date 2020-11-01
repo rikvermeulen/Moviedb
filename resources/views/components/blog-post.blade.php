@@ -1,4 +1,4 @@
-<div class="mt-8">
+<div class="mt-12">
     <a href="{{ route('blog.show', $blog['id']) }}">
     </a>
     <div class="mt-2">

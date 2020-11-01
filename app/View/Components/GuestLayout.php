@@ -18,7 +18,7 @@ class GuestLayout extends Component
 
     public function render()
     {
-        return view('guest')
+        return view('layouts.guest')
             ->extends('layout')
             ->section('content');
     }

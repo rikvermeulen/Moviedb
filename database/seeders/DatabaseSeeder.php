@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\Models\Blog;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,5 +14,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(BlogTableSeeder::class);
+        $this->call(PermissionTableSeeder::class);
+        $this->call(CreateAdminUserSeeder::class);
     }
 }

@@ -4,7 +4,7 @@
 @section ('content')
 
     {{--header--}}
-    @include ('layout.partials.header')
+    @include ('layouts.partials.header')
     <main>
         <div class="error">
             <div class="error-title">
@@ -17,6 +17,6 @@
         </div>
     </main>
     {{--footer--}}
-    @include ('layout.partials.footer')
+    @include ('layouts.partials.footer')
 
 @endsection
