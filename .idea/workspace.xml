@@ -23,15 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aad9781-c2df-4541-b3d4-b2eed876aeed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/View/Components/BlogPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/blog-post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blog/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/blog/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blog/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-dropdown.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +250,7 @@
       <workItem from="1603877506436" duration="23000" />
       <workItem from="1603981209817" duration="413000" />
       <workItem from="1604135624430" duration="2150000" />
-      <workItem from="1604140040881" duration="23222000" />
+      <workItem from="1604140040881" duration="24506000" />
     </task>
     <task id="LOCAL-00001" summary="#Added&#10;-Loading sign after input search field&#10;&#10;#bug fixes&#10;-Fixed tailwind compile error&#10;-Fixed styling search bar">
       <created>1601416578625</created>
@@ -315,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604228264004</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added pages to view all blog posts and a single one">
+      <created>1604230472926</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604230472926</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +345,8 @@
     <MESSAGE value="Added jetstream and updated all packages&#10;#Added&#10;- jetstream pkg for better user usage of login and dashboard&#10;#bugs&#10;- needed to fix a lot of layout error and need to redesign some of the components" />
     <MESSAGE value="Added jetstream and updated all packages" />
     <MESSAGE value="Fixed routing to new index layouts map and added admin blog functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed routing to new index layouts map and added admin blog functionality" />
+    <MESSAGE value="added pages to view all blog posts and a single one" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pages to view all blog posts and a single one" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="213" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599478309623">
@@ -356,10 +357,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="458" y="221" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1604151335015" />
-    <state x="178" y="25" key="CommitChangelistDialog2" timestamp="1604228263744">
+    <state x="178" y="25" key="CommitChangelistDialog2" timestamp="1604230472661">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="178" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604228263744" />
+    <state x="178" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604230472661" />
     <state x="1683" y="610" width="474" height="280" key="ComposerInitDialogKey" timestamp="1601301502288">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -408,11 +409,11 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="334" y="172" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1600680650246" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1604228266920">
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2" timestamp="1604230475800">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="1512" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1601416589177" />
-    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1604228266920" />
+    <state x="380" y="148" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1604230475800" />
     <state x="890" y="224" width="672" height="424" key="search.everywhere.popup" timestamp="1601719565745">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

@@ -36,5 +36,5 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/user/blog', Blogs::class)
-->name('dashboard');
+->name('blog');
 
