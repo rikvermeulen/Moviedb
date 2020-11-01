@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ActorsController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\TvShowsController;

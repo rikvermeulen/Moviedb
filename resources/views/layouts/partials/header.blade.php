@@ -14,6 +14,9 @@
                 <li class="md:ml-6 mt-3 md:mt-0">
                     <a class="hover:text-gray-500" href="{{ route('actors.index') }}">Actors</a>
                 </li>
+                <li class="md:ml-6 mt-3 md:mt-0">
+                    <a class="hover:text-gray-500" href="{{ route('blog.index') }}">Blog</a>
+                </li>
             </ul>
             <div  class="flex flex-col md:flex-row items-center">
                 <div id="theme-switcher" class="md:ml-6 mt-3 md:mt-0">

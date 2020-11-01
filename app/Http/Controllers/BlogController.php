@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Blog;
 use Illuminate\Http\Request;
 
 class BlogController extends Controller
@@ -13,7 +14,10 @@ class BlogController extends Controller
      */
     public function index()
     {
-        //
+        $blogs = Blog::all();
+
+        return view('layouts.blog.index', [
+        'blogs' => $blogs]);
     }
 
     /**
@@ -43,9 +47,11 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Blog $id)
     {
-        //
+        return view('layouts.blog.show', [
+            'blog' => $id,
+        ]);
     }
 
     /**
