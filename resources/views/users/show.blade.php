@@ -5,30 +5,30 @@
         @include ('layouts.partials.header')
         <section class="container mx-auto px-4 pt-16">
             <div class="row">
-                <div class="col-lg-12 margin-tb">
-                    <div class="pull-left">
+                <div class="">
+                    <div class="">
                         <h2> Show User</h2>
                     </div>
-                    <div class="pull-right">
-                        <a class="btn btn-primary" href="{{ route('users.index') }}"> Back</a>
+                    <div class="">
+                        <a class="flex inline-flex items-center bg-button text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150" href="{{ route('users.index') }}"> Back</a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
+                <div class="">
+                    <div class="">
                         <strong>Name:</strong>
                         {{ $user->name }}
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
+                <div class="">
+                    <div class="">
                         <strong>Email:</strong>
                         {{ $user->email }}
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
+                <div class="">
+                    <div class="f">
                         <strong>Roles:</strong>
                         @if(!empty($user->getRoleNames()))
                             @foreach($user->getRoleNames() as $v)

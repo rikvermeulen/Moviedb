@@ -5,12 +5,12 @@
         @include ('layouts.partials.header')
         <section class="container mx-auto px-4 pt-16">
             <div class="row">
-                <div class="col-lg-12 margin-tb">
+                <div class="">
                     <div class="">
                         <h2>Users Management</h2>
                     </div>
                     <div class="">
-                        <a class="" href="{{ route('users.create') }}"> Create New User</a>
+                        <a class="flex inline-flex items-center bg-button text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150" href="{{ route('users.create') }}"> Create New User</a>
                     </div>
                 </div>
             </div>
@@ -40,10 +40,10 @@
                             @endif
                         </td>
                         <td>
-                            <a href="{{ route('users.show',$user->id) }}">Show</a>
-                            <a href="{{ route('users.edit',$user->id) }}">Edit</a>
+                            <a class="flex inline-flex items-center bg-button text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150" href="{{ route('users.show',$user->id) }}">Show</a>
+                            <a class="flex inline-flex items-center bg-button text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150" href="{{ route('users.edit',$user->id) }}">Edit</a>
                             {!! Form::open(['method' => 'DELETE','route' => ['users.destroy', $user->id],'style'=>'display:inline']) !!}
-                            {!! Form::submit('Delete', ['class' => '']) !!}
+                            {!! Form::submit('Delete', ['class' => 'flex inline-flex items-center bg-button text-gray-900 rounded font-semibold px-5 py-4 hover:bg-orange-600 transition ease-in-out duration-150']) !!}
                             {!! Form::close() !!}
                         </td>
                     </tr>
