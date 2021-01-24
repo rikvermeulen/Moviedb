@@ -4,6 +4,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+$.ajaxSetup({
+    headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+    }
+});
+
 /*require('./bootstrap');*/
 
 window.Vue = require('vue');

@@ -61,4 +61,9 @@ class User extends Authenticatable
     ];
 
     protected $guard_name = 'web';
+
+    public function loggedInMoreThanFiveDays()
+    {
+        return $this->login_days >= 5;
+    }
 }

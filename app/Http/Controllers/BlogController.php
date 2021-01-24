@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
+
 use App\Models\Blog;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class BlogController extends Controller
 {
+
     /**
      * Display a listing of the resource.
      *
@@ -15,11 +20,51 @@ class BlogController extends Controller
     public function index()
     {
         $blogs = Blog::all();
+        $pagination = 9;
+        $categories = Category::all();
+
+        if (request()->category) {
+            $blogs = Blog::with('categories')->whereHas('categories', function ($query) {
+                $query->where('slug', request()->category);
+            })->get();
+            $categoryName = optional($categories->where('slug', request()->category)->first())->name;
+        } else {
+            /*$blogs = Blog::where('featured', true);*/
+            $categoryName = 'Everything';
+        }
+
 
         return view('layouts.blog.index', [
-        'blogs' => $blogs]);
+            'blogs' => $blogs,
+            'categories' => $categories,
+            'categoryName' => $categoryName,
+            ]);
     }
 
+
+
+    public function search(Request $request)
+    {
+        $request->validate([
+            'query' => 'required|min:3',
+        ]);
+
+        $query = $request->input('query');
+
+        $blogs = Blog::search($query)->paginate(10);
+
+        return view('search-results')->with('blogs', $blogs);
+    }
+
+    public function blogChangeStatus(Request $request)
+    {
+        Log::info($request->all());
+        $blogs = Blog::find($request->blog_id);
+        $blogs->status = $request->status;
+        $blogs->save();
+
+        return response()->json(['success'=>'Status change successfully.']);
+    }
     /**
      * Show the form for creating a new resource.
      *

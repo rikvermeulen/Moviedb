@@ -10,7 +10,10 @@
                         <h2 class="text-4xl mt-4 md:mt-0 font-semibold">{{ $blog['date'] }}</h2>
                         <div class="flex flex-wrap items-center text-gray-400 text-sm">
                             <h2 class="text-4xl mt-4 md:mt-0 font-semibold">{{ $blog['body'] }}</h2>
+
                         </div>
+                        <p>Writen by {{$blog['author']}}</p>
+                        <p>Last edited by {{$blog->user->name}}</p>
                     </div>
                 </div>
         </section>

@@ -61,6 +61,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" />
+        <link rel="stylesheet" href="{{ URL::asset('css/common/bootstrap.min.css') }}" />
         <livewire:styles>
          <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
         {{--<link rel="stylesheet" href="{{ URL::asset('css/common/bootstrap.css') }}" />--}}

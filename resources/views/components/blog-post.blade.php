@@ -1,4 +1,5 @@
-<div class="mt-12">
+@if($blog->status == 1)
+<div class="mb-12">
     <a href="{{ route('blog.show', $blog['id']) }}">
     </a>
     <div class="mt-2">
@@ -8,3 +9,4 @@
         </div>
     </div>
 </div>
+@endif

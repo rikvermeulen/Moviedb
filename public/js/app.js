@@ -12789,8 +12789,13 @@ module.exports = g;
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-
+$.ajaxSetup({
+  headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  }
+});
 /*require('./bootstrap');*/
+
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -12892,8 +12897,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/rikvermeulen/Documents/websites/ProDev/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/rikvermeulen/Documents/websites/ProDev/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Rik Vermeulen Dev\PhpstormProjects\Moviedb\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

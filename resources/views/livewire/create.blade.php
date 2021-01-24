@@ -18,6 +18,21 @@
                             <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="body" placeholder="Enter Body"></textarea>
                             @error('body') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput3" class="block text-gray-700 text-sm font-bold mb-2">author:</label>
+                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput3" placeholder="Enter Title" wire:model="author">
+                            @error('author') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput3" class="block text-gray-700 text-sm font-bold mb-2">Available online:</label>
+                            <input type="checkbox" class=" focus:outline-none focus:shadow-outline" id="exampleFormControlInput3" placeholder="Enter Title" wire:model="status">
+                            @error('status') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput4" class="block text-gray-700 text-sm font-bold mb-2">last edited:</label>
+                            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput4" wire:model="user_id" placeholder="">
+                            @error('user') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
                     </div>
                 </div>
                 <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">

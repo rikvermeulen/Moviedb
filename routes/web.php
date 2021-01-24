@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MoviesController;
 use App\Http\Livewire\Blogs;
+use App\User;
 
 Route::get('/', [IndexController::class, 'index'])->name('index.index');
 
@@ -25,6 +26,9 @@ Route::get('/actors/{id}', [ActorsController::class, 'show'])->name('actors.show
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog.index');
 Route::get('/blog/{id}', [BlogController::class, 'show'])->name('blog.show');
+Route::get('/search', [BlogController::class, 'search'])->name('search');
+Route::post('/blogChangeStatus', [BlogController::class, 'blogChangeStatus']);
+
 
 Auth::routes();
 
@@ -41,6 +45,8 @@ Route::group(['middleware' => ['role:Admin']], function() {
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+
 
 
 

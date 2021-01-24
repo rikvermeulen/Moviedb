@@ -7,7 +7,7 @@ use App\Models\Blog;
 
 class Blogs extends Component
 {
-    public $blogs, $title, $body, $blog_id;
+    public $blogs, $title, $body, $author, $status, $user_id, $blog_id;
     public $isOpen = 0;
 
     /**
@@ -60,6 +60,9 @@ class Blogs extends Component
     private function resetInputFields(){
         $this->title = '';
         $this->body = '';
+        $this->author = '';
+        $this->status = '';
+        $this->user_id = '';
         $this->blog_id = '';
     }
 
@@ -73,11 +76,17 @@ class Blogs extends Component
         $this->validate([
             'title' => 'required',
             'body' => 'required',
+            'author' => 'required',
+            'status' => 'required',
+            'user_id' => 'required',
         ]);
 
         Blog::updateOrCreate(['id' => $this->blog_id], [
             'title' => $this->title,
-            'body' => $this->body
+            'body' => $this->body,
+            'author' => $this->author,
+            'status' => $this->status,
+            'user_id' => $this->user_id
         ]);
 
         session()->flash('message',
@@ -97,6 +106,9 @@ class Blogs extends Component
         $this->blog_id = $id;
         $this->title = $blog->title;
         $this->body = $blog->body;
+        $this->author = $blog->author;
+        $this->status = $blog->status;
+        $this->user_id = $blog->user_id;
 
         $this->openModal();
     }
