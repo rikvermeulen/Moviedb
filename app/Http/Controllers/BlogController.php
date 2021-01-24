@@ -7,6 +7,7 @@ use App\Models\Category;
 use App\Models\Blog;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
 class BlogController extends Controller
@@ -17,6 +18,12 @@ class BlogController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function date()
+    {
+
+    }
+
     public function index()
     {
         $blogs = Blog::all();
@@ -33,11 +40,25 @@ class BlogController extends Controller
             $categoryName = 'Everything';
         }
 
+        $user2 = User::where('id', Auth::user()->id)->first();
+        $userCreatedAt = $user2->created_at;
+        $datediv = now()->diffInDays($userCreatedAt);
+
+        if($datediv>=5)
+        {
+            $loginDays = true;
+        }
+        else
+        {
+            $loginDays= false;
+        }
+
 
         return view('layouts.blog.index', [
             'blogs' => $blogs,
             'categories' => $categories,
             'categoryName' => $categoryName,
+            'loginDays' => $loginDays,
             ]);
     }
 
@@ -65,6 +86,8 @@ class BlogController extends Controller
 
         return response()->json(['success'=>'Status change successfully.']);
     }
+
+
     /**
      * Show the form for creating a new resource.
      *
@@ -94,8 +117,22 @@ class BlogController extends Controller
      */
     public function show(Blog $id)
     {
+        $user2 = User::where('id', Auth::user()->id)->first();
+        $userCreatedAt = $user2->created_at;
+        $datediv = now()->diffInDays($userCreatedAt);
+
+        if($datediv>=5)
+        {
+            $loginDays = true;
+        }
+        else
+        {
+            $loginDays= false;
+        }
+
         return view('layouts.blog.show', [
             'blog' => $id,
+            'loginDays' => $loginDays,
         ]);
     }
 

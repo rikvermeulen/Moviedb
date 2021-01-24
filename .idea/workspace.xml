@@ -1,54 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3e35bb9-d6f4-40d5-8e07-84e090b928a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="f3e35bb9-d6f4-40d5-8e07-84e090b928a8" name="Default Changelist" comment="added&#10;- search and filter function&#10;- toggle buttons with ajax, for active/non-active blogs&#10;- ownership for created/edited blogs&#10;- edited css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MoviesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Blogs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Blogs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchDropdown.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Components/MovieCard.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Components/MovieCard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_31_210230_create_blogs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_31_210230_create_blogs_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/BlogTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/BlogTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/common/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/common/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/common/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/common/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/tisaprolight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/tisaprolight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/403.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/403.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/404.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/404.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/500.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/500.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svg/503.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/503.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/blog-post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/blog-post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/movie-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/movie-card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/email/contact-message.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/email/contact-message.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/errors/404.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blog/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/blog/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/blog/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/movies/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/movies/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/movies/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/movies/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/blogs.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/blogs.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/search-dropdown.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,8 +188,17 @@
       <option name="presentableId" value="Default" />
       <updated>1611407258729</updated>
       <workItem from="1611407261662" duration="8762000" />
-      <workItem from="1611416851571" duration="26134000" />
+      <workItem from="1611416851571" duration="26615000" />
+      <workItem from="1611489352685" duration="9553000" />
     </task>
+    <task id="LOCAL-00001" summary="added&#10;- search and filter function&#10;- toggle buttons with ajax, for active/non-active blogs&#10;- ownership for created/edited blogs&#10;- edited css">
+      <created>1611449565465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611449565465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,5 +215,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added&#10;- search and filter function&#10;- toggle buttons with ajax, for active/non-active blogs&#10;- ownership for created/edited blogs&#10;- edited css" />
+    <option name="LAST_COMMIT_MESSAGE" value="added&#10;- search and filter function&#10;- toggle buttons with ajax, for active/non-active blogs&#10;- ownership for created/edited blogs&#10;- edited css" />
   </component>
 </project>

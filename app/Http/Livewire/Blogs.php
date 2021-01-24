@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
 use App\Models\Blog;
 
@@ -62,7 +63,7 @@ class Blogs extends Component
         $this->body = '';
         $this->author = '';
         $this->status = '';
-        $this->user_id = '';
+        $this->user_id = Auth::user()->id;
         $this->blog_id = '';
     }
 
@@ -95,6 +96,7 @@ class Blogs extends Component
         $this->closeModal();
         $this->resetInputFields();
     }
+
     /**
      * The attributes that are mass assignable.
      *
@@ -108,7 +110,7 @@ class Blogs extends Component
         $this->body = $blog->body;
         $this->author = $blog->author;
         $this->status = $blog->status;
-        $this->user_id = $blog->user_id;
+        $this->user_id = Auth::user()->id;
 
         $this->openModal();
     }
